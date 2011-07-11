@@ -12,15 +12,16 @@ end
 require 'rake'
 
 require 'jeweler'
-Jeweler::Tasks.new do |gem|
+tasks = Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "mindset"
   gem.homepage = "http://github.com/mangled/mindset"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{foo}
+  gem.description = %Q{bar}
   gem.email = "matthew@mangled.me"
   gem.authors = ["mangled"]
+  gem.extensions = ['ext/mindset_device/extconf.rb']
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
@@ -31,6 +32,9 @@ Rake::TestTask.new(:test) do |test|
   test.pattern = 'test/**/test_*.rb'
   test.verbose = true
 end
+
+require 'rake/extensiontask'
+Rake::ExtensionTask.new('mindset_device', tasks.gemspec)
 
 require 'rcov/rcovtask'
 Rcov::RcovTask.new do |test|

@@ -1,7 +1,7 @@
-require 'helper'
+require File.dirname(__FILE__) + '/helper.rb'
 
-class TestMindset < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
-  end
-end
+require 'test_buffered_stream'
+require 'test_byte_parser'
+require 'test_mindset_device_extn'
+require 'test_payload_parser'
+require 'test_mock_device'
