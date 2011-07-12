@@ -29,7 +29,7 @@ To-do
     else
         address = "00:13:EF:00:4B:46" # E.g.
         channel = 3 # I will give some help on this before the gem is released :-)
-	
+		
         device = if use_mock_mindset
 	        mock = Mindset::MockDevice.new(1024, true)
         	mock.queue_event_attention(22)
