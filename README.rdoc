@@ -29,13 +29,13 @@ To-do
     else
         address = "00:13:EF:00:4B:46" # E.g.
         channel = 3 # I will give some help on this before the gem is released :-)
-		
+
         device = if use_mock_mindset
-	        mock = Mindset::MockDevice.new(1024, true)
-        	mock.queue_event_attention(22)
-	        mock
+            mock = Mindset::MockDevice.new(1024, true)
+            mock.queue_event_attention(22)
+           mock
         else
-	        Mindset::Device.new()
+            Mindset::Device.new()
         end
 
         # Create the stream parser and payload parser (with the default logger)
@@ -43,7 +43,7 @@ To-do
 
         # Parse the stream
         device.listen(address, channel) do |device|
-	        Mindset::StreamParser.parse(device, parser)
+            Mindset::StreamParser.parse(device, parser)
         end
     end
 
