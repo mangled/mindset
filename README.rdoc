@@ -18,7 +18,7 @@ To-do
 
 == SYNOPSIS:
 
-:include: example.rb
+:include: ./example.rb
 
 == REQUIREMENTS:
 
@@ -27,6 +27,10 @@ To-do
 == INSTALL:
 
 * When I release this gem: sudo gem install mindset, in the meantime you can pull and install locally by building a package
+
+== Contact
+
+* {Mangled}[http://www.google.com/recaptcha/mailhide/d?k=01vdgNNADQlgrqj5lMuKLpag==&c=dLzYSFd6PdPBc5paL9eJKJ62wOQODVZwCaNzqvMcxyI=]
 
 == LICENSE:
 
