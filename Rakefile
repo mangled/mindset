@@ -18,7 +18,7 @@ tasks = Jeweler::Tasks.new do |gem|
   gem.license = "MIT"
   gem.summary = %Q{A ruby gem for connecting to the NeuroSky mindset}
   gem.description = %Q{A ruby gem for connecting to the NeuroSky mindset}
-  gem.email = "matthew@mangled.me"
+  gem.email = "mindset@mangled.me"
   gem.authors = ["mangled"]
   gem.extensions = ['ext/mindset_device/extconf.rb']
   # dependencies defined in Gemfile
