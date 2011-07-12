@@ -2,13 +2,15 @@
 
 * https://github.com/mangled/mindset
 
+*NOTE:* This gem is not yet released, its complete('ish) but I'm finishing documentation and final testing/code tidying. If you pull it locally you will be able to build it and install it as a gem.
+
 == DESCRIPTION:
 
 A ruby gem for connecting to the NeuroSky[http://neurosky.com/] mindset
 
 == DESIGN
 
-[to-do] quick overview of the design and key classes
+To-do
 
 == FEATURES/PROBLEMS:
 
@@ -20,11 +22,11 @@ A ruby gem for connecting to the NeuroSky[http://neurosky.com/] mindset
 
 == REQUIREMENTS:
 
-* This has only been tested on Ubuntu. This version will not work on Windows, due to the need to compile native extensions. This should be addressed in the next version.
+* This has only been tested on Ubuntu. This version will not work on Windows, due to the need to compile native extensions. This should be addressed in the next version. Although I can do this, if anyone feels like adding the code, please go for it.
 
 == INSTALL:
 
-* sudo gem install mindset
+* When I release this gem: sudo gem install mindset, in the meantime you can pull and install locally by building a package
 
 == LICENSE:
 

@@ -13,12 +13,11 @@ require 'rake'
 
 require 'jeweler'
 tasks = Jeweler::Tasks.new do |gem|
-  # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "mindset"
   gem.homepage = "http://github.com/mangled/mindset"
   gem.license = "MIT"
-  gem.summary = %Q{foo}
-  gem.description = %Q{bar}
+  gem.summary = %Q{A ruby gem for connecting to the NeuroSky mindset}
+  gem.description = %Q{A ruby gem for connecting to the NeuroSky mindset}
   gem.email = "matthew@mangled.me"
   gem.authors = ["mangled"]
   gem.extensions = ['ext/mindset_device/extconf.rb']

@@ -1,8 +1,3 @@
-# This pulls all the code together - You will need to plug-in your own
-# device address and correct channel
-#
-# TODO: Explain how to do this!
-#
 require File.dirname(__FILE__) + '/lib/mindset'
 
 find_mindset = false
