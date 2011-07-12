@@ -1,4 +1,4 @@
 A ruby gem for connecting to the NeuroSky mindset.
 
-I will be uploading this gem in the next few days - Just completing testing...
+The gem is almost complete but not available through ruby gems just yet. You can pull locally and build it though. I will be completing the gem over the next couple of weeks.
 
